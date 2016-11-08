@@ -1,2 +1,4 @@
-# FreeCodeCamp
-Projects and Musings related to FreeCodeCamp. 
+FreeCodeCamp
+============
+
+Projects and Musings related to FreeCodeCamp.
