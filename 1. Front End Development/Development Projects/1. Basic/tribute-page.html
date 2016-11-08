@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- view on CodePen @ http://codepen.io/kubiani/pen/GZGRzg -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Albert Einstein</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <style type="text/css">
+        html {
+            margin: 2em;
+            font-family: 'Lato', sans-serif !important;
+        }
+
+        .tribute{
+            font-variant: small-caps;
+            font-size: 4em;
+        }
+
+        .tagline {
+            color: grey;
+            font-style: italic;
+            margin-top: 0;
+        }
+
+        #quote {
+            font-size: 1.5em;
+            font-family: cursive;
+            margin-top: 1em;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul > li {
+            text-indent: -1.4em;
+        }
+
+        ul > li:before
+        {
+            font-family: 'FontAwesome';
+            content: "\f105";
+            margin-right: 0.5em;
+            width: 1.4em;
+        }
+
+        ul.book li:before {
+            content: "\f02d";
+        }
+
+        ul.user li:before {
+            content: "\f007";
+        }
+
+        ul.discover li:before {
+            content: "\f0eb";
+        }
+
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div id="header" class="row">
+        <div class="col-sm-4 col-md-2">
+            <img class="mugshot img-responsive" src="http://orig08.deviantart.net/322b/f/2015/108/e/0/albert_einstein_by_vasilart-d8q4ouk.jpg" alt="Albert Einstein portrait by Vasil"/> <!--courtesy: VasilArt-->
+        </div>
+        <div class="col-md-10">
+            <h2 class="tribute">Albert Einstein</h2>
+            <h3 class="tagline">the most influential physicist of the 20th century</h3>
+        </div>
+    </div>
+    <div id="quote" class="row text-center">
+        <div class="col-xs-12">
+            <p>Anyone who has never made a mistake has never tried anything new.</p>
+        </div>
+    </div>
+    <div id="content row">
+        <div class="col-md-3 col-md-push-9">
+            <h3>Fast Facts</h3>
+            <p>lived: 14 March 1879 - 17 April 1955</p>
+            <p>birthplace: Ulm, Württemberg, Germany</p>
+
+            <h3>Major Discoveries</h3>
+            <ul class="discover">
+                <li>General and special relativity</li>
+                <li>Gravitational waves</li>
+                <li>Photoelectric effect</li>
+                <li>Einstein field equations</li>
+                <li>Unified field theory</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="col-md-8 col-md-pull-3">
+        <h3>Life</h3>
+        <ul>
+            <li>1905 - Miracle Year in which he produced 4 groundbreaking articles while working at the patent office.</li>
+            <ol>
+                <li>applied the quantum theory to light to explain the photoelectric effect, in which a material will emit electrically charged particles when hit by light</li>
+                <li>experimental proof of the existence of atoms, which he got by analyzing the phenomenon of Brownian motion, in which tiny particles were suspended in water</li>
+                <li>introduced his special theory of relativity, which held that the laws of physics are the same even for objects moving in different inertial frames</li>
+                <li>concerned the fundamental relationship between mass and energy, concepts viewed previously as completely separate. Einstein’s famous equation E = mc2</li>
+            </ol>
+            <li>1921 - he won the Nobel Prize for physics for his explanation of the photoelectric effect</li>
+            <li>1933 - moved to the US when he was targeted during the rise of Nazi Germany</li>
+            <li>1939 - Einstein and fellow physicist Leo Szilard wrote to President Franklin D. Roosevelt regarding atomic threat; led to the creation of the Manhattan Project</li>
+            <li>1945 - bombing of Hiroshima, Japan. Einstein became a major player in efforts to curtail usage of the atomic bomb. Einstein also became a member of the National Association for the Advancement of Colored People, seeing the parallels between the treatment of Jews in Germany and African Americans in the United States</li>
+        </ul>
+    </div>
+
+    <div class="row"></div>
+    <h3>Further Reading</h3>
+    <ul class="book">
+        <li><a href="http://einstein.biz/" target="_blank">The Official Licensing Site of Albert Einstein</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Albert_Einstein" target="_blank">Wikipedia >> Albert Einstein</a></li>
+        <li><a href="http://www.nobelprize.org/nobel_prizes/physics/laureates/1921/einstein-bio.html" target="_blank">NobelPrize.org >> Albert Einstein</a></li>
+        <li><a href="http://www.biography.com/people/albert-einstein-9285408" target="_blank">Biography.com >> Albert Einstein</a></li>
+    </ul>
+
+</div>
+</div>
+<div id="footer">
+    <p>Written by Nick Kubiak for <a href="http://www.freecodecamp.com/kubiani" target="_blank">FreeCodeCamp</p>
+</div>
+</body>
+</html>
